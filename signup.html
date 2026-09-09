@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+
+    <title>Sign Up</title>
+</head>
+
+<body class="min-h-screen bg-amber-200/50 flex justify-center items-center p-4">
+
+    <div class="w-full max-w-[400px] bg-[#f8ead9] rounded-2xl shadow-xl shadow-yellow-200 p-8">
+
+        <div class="text-center mb-6">
+
+            <h1 class="text-4xl font-extrabold text-amber-800">
+                Sign Up
+            </h1>
+
+            <p class="text-[13px] text-gray-700 mt-2">
+                Create your account
+            </p>
+
+        </div>
+
+
+        <form>
+
+            <!-- Name -->
+            <div class="flex items-center mb-4 border-b-2 border-[#4b220f]">
+
+                <i class="fas fa-user text-lg text-[#4b220f]"></i>
+
+                <input
+                    type="text"
+                    placeholder="Full Name.."
+                    class="p-2 outline-none w-full bg-transparent"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Email -->
+            <div class="flex items-center mb-4 border-b-2 border-[#4b220f]">
+
+                <i class="fas fa-envelope text-lg text-[#4b220f]"></i>
+
+                <input
+                    type="email"
+                    placeholder="Email Address.."
+                    class="p-2 outline-none w-full bg-transparent"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Password -->
+            <div class="flex items-center mb-4 border-b-2 border-[#4b220f]">
+
+                <i class="fas fa-lock text-lg text-[#4b220f]"></i>
+
+                <input
+                    type="password"
+                    placeholder="Create Password.."
+                    class="p-2 outline-none w-full bg-transparent"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Confirm Password -->
+            <div class="flex items-center mb-6 border-b-2 border-[#4b220f]">
+
+                <i class="fas fa-lock text-lg text-[#4b220f]"></i>
+
+                <input
+                    type="password"
+                    placeholder="Confirm Password.."
+                    class="p-2 outline-none w-full bg-transparent"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Sign Up Button -->
+            <button
+                type="submit"
+                class="w-full mb-4 bg-[#6b3015] py-2 text-white rounded-full hover:bg-[#a44c23] cursor-pointer duration-200"
+            >
+                Create Account
+            </button>
+
+
+            <!-- Login -->
+            <p class="text-center text-gray-500 text-[15px]">
+
+                Already have an account?
+
+                <a
+                    href="index.html"
+                    class="font-black hover:text-[#a44c23] duration-200"
+                >
+                    Sign In
+                </a>
+
+            </p>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

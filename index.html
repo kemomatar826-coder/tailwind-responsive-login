@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <title>Login Tailwind</title>
+
+</head>
+
+<body class="min-h-screen bg-amber-200/50 flex justify-center items-center p-4">
+    <div class="flex flex-col md:flex-row w-full max-w-[750px] min-h-[430px] md:h-[430px] bg-white overflow-hidden rounded-2xl drop shadow-xl shadow-yellow-200">
+
+<div class="w-full md:w-1/2 h-[220px] md:h-auto">
+    <img class="w-full h-full object-cover"  
+    src="image/photo-1590846406792-0adc7f938f1d.avif">
+</div>
+
+<div class="flex flex-col justify-center items-center w-full md:w-[50%] bg-[#f8ead9] p-6">
+    <div class="text-center mb-4 space-y-5">
+        <h1 class="text-4xl font-serif text-amber-900">Sign In</h1>
+        <h2 class="text-[13px] font-light text-gray-700">Welcome Back!</h2>
+    </div>
+
+
+
+<form class="w-full max-w-xs px-2" action="https://formspree.io/f/myeybalq" method="post">
+<div class="flex items-center mb-2 border-b-2 border-[#4b220f] w-full">
+    <i class="fas fa-envelope text-lg text-[#4b220f]"></i>
+    <input name="email" type="email" placeholder="Email Address.." class="p-2 outline-none w-full bg-transparent">
+</div>
+
+<div class="flex items-center mb-2 border-b-2 border-[#4b220f] w-full">
+    <i class="fas fa-lock text-lg text-[#4b220f]"></i>
+    <input name="password" type="password" placeholder="Enter password.." class="p-2 outline-none w-full bg-transparent">
+</div>
+
+<div class="mb-4">
+    <a href="forgot-password.html" class="text-[12px] text-gray-500 underline hover:text-gray-800 duration-200">Forgot Password?</a>
+</div>
+
+<button class="w-full mb-4 bg-[#6b3015] py-2 text-white rounded-full hover:bg-[#a44c23] cursor-pointer duration-200">Sign In</button>
+   
+
+<p class="text-center text-gray-500 mt-2 text-[15px]">
+    Don't have an account?
+    <a href="signup.html" class="font-black hover:text-[#a44c23] duration-200">Sign Up?</a>
+</p>
+
+    <div class="flex items-center gap-3 my-4">
+        <hr class="flex-1 border-amber-500"></hr>
+        <span class="text-[20px] text-gray-500 font-light">OR</span>
+        <hr class="flex-1 border-amber-500"></hr>
+    </div>
+    
+    <div class="flex justify-center gap-4 mb-2 text-[#4b220f]">
+        <a href="https://www.facebook.com/login/?locale=ar_AR" target="_blank"><i class="fab fa-facebook text-2xl hover:text-[#954d2b] cursor-pointer duration-300"></i></a>
+
+       <a href="https://accounts.google.com/v3/signin/identifier?dsh=S1812573153:1655944654029516&flowEntry=ServiceLogin&flowName=WebLiteSignIn&ifkv=AX3vH39E0iYVTmn-NoMNM_C35EPrno8LWsRx2Qhr0HApkVLZ-Zc_Vql8ouaSQOiXzEmthrpOPAV5" target="_blank"><i class="fab fa-google text-2xl hover:text-[#954d2b] cursor-pointer duration-300"></i></a>
+
+        <a href="https://www.instagram.com/accounts/signup/phone/" target="_blank"><i class="fab fa-instagram text-2xl hover:text-[#954d2b] cursor-pointer duration-300"></i></a>
+    </div>
+
+
+</form>
+</div>
+
+
+</body>
+</html>
